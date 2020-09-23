@@ -1,0 +1,7 @@
+from sympy import*
+from sympy.plotting import*
+from matplotlib.pyplot import show
+
+t = Symbol('t')
+plot(2+5*t, ylabel='s(t)', xlim=[0,3],ylim=[-10,10])
+show()
